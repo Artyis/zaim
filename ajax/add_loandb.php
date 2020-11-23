@@ -30,7 +30,7 @@ $apend= $_FILES['file']['name'];
 $filetmp = $_FILES['file']['tmp_name'];
 
 
- if (move_uploaded_file($filetmp, '../img/'.$apend))
+ if (move_uploaded_file('../temp/'.$filetmp, '../img/'.$apend))
   {
   //Здесь идет процесс загрузки изображения
   $size = getimagesize('../img/'.$apend);
