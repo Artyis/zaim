@@ -12,10 +12,10 @@ if ($_COOKIE ['login'] !=''){
   $sql = "DELETE FROM `loans` WHERE  `id`=$id";
   $query = $pdo->prepare($sql);
   $query -> execute([$id]);
-  header('Location: http://localhost:8000/admin.php');
+  header('Location: https://zaim-zaym.ru/admin.php');
   exit;
 }
 else {
-  header('Location: http://localhost:8000/singin.php');
+  header('Location: https://zaim-zaym.ru/singin.php');
 }
  ?>
