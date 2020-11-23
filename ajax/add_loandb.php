@@ -30,22 +30,8 @@ $apend= $_FILES['file']['name'];
 $filetmp = $_FILES['file']['tmp_name'];
 
 
- if (move_uploaded_file('../temp/'.$filetmp, '../img/'.$apend))
-  {
-  //Здесь идет процесс загрузки изображения
-  $size = getimagesize('../img/'.$apend);
- // с помощью этой функции мы можем получить размер пикселей изображения
- if ($size[0] < 501 && $size[1]<1501)
-   {
-   // если размер изображения не более 500 пикселей по ширине и не более 1500 по  высоте
-   return $apend;
+ move_uploaded_file($filetmp, '../img/'.$apend);
 
-     }
-   else {
-        global $error2;
-        $error2 ='Ошибка размера';
-          }
-        };
 
 include 'connectdb.php';
 
