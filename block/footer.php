@@ -1,7 +1,7 @@
 <footer class="footer">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="js/jquery.cookie.js"></script>
-  <script src="/js/bookmark.js"></script>
+  <script src="../js/jquery.cookie.js"></script>
+  <script src="../js/bookmark.js"></script>
   <p class ="footer_text container">Сервис zaim-zaym.ru не выдает займы и не является финансовым учреждением, банком или кредитором.
 Все рекомендации являются результатом аналитических исследований и не несут рекламный характер.
 Предложение не является оффертой. Конечные условия займов уточняйте при прямом общении к кредиторам.
