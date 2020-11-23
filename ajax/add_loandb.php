@@ -30,10 +30,10 @@ $apend= $_FILES['file']['name'];
 $filetmp = $_FILES['file']['tmp_name'];
 
 
- if (move_uploaded_file('tmp/'.$filetmp, 'img/'.$apend))
+ if (move_uploaded_file($filetmp, '../img/'.$apend))
   {
   //Здесь идет процесс загрузки изображения
-  $size = getimagesize('img/'.$apend);
+  $size = getimagesize('../img/'.$apend);
  // с помощью этой функции мы можем получить размер пикселей изображения
  if ($size[0] < 501 && $size[1]<1501)
    {
