@@ -8,7 +8,7 @@
   $out1=[];
   $out2=[];
     while ($row=$query->fetch(PDO::FETCH_OBJ)){
-      if(($row->sumfrom)>=$sum && ($row->loantime)>=$time){
+      if(($row->sumto)>=$sum && ($row->sumfrom)<=$sum && ($row->loantime)>=$time){
       $out1[]=[
         '<div class="offer_box">
         <div class = "text_box">
