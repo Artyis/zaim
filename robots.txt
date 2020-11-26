@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /
 Disallow: /ajax/
 Disallow: /.git/
 Disallow: /products/
