@@ -21,7 +21,7 @@
   	<meta property="og:image:width" content="1200" />
   	<meta property="og:image:height" content="630" />
   	<meta name="twitter:card" content="summary" />
-  	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" />
+  	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" /> 
   </head>
   <body>
     <nav class="header">
