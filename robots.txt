@@ -1,2 +1,9 @@
 User-agent: *
 Disallow: /
+Disallow: /ajax/
+Disallow: /.git/
+Disallow: /products/
+Disallow: /singin.php
+Disallow: /admin.php
+Disallow: /analitics.php
+Sitemap: https://zaim-zaym.ru/sitemap.xml
