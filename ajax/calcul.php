@@ -47,7 +47,7 @@
               </div>
             </div>
           </div>
-              <div class="pbttn"><a href ="https://'.$row->cpalink.'" class="bttn" target="_blank" >Изучить условия</a></div>
+              <div class="pbttn"><a href ="https://'.$row->cpalink.'" class="bttn" target="_blank" id="mtdone">Изучить условия</a></div>
             </div>
               </div>
             '
@@ -89,7 +89,7 @@
               </div>
             </div>
           </div>
-              <div class="pbttn"><a href ="https://'.$row->cpalink.'" class="bttn" >Изучить условия</a></div>
+              <div class="pbttn"><a href ="https://'.$row->cpalink.'" class="bttn" target="_blank" id="stdone" >Изучить условия</a></div>
             </div>
               </div>'
       ];
