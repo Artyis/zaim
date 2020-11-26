@@ -12,7 +12,7 @@
 <div id="popup" style="position:fixed;">
   <div class="for_popup container">
     <p class="popup_txt">Понравился наш сайт?! Добавьте его в закладки чтобы не потерять!;)</p>
-    <a href="#" class="js-bookmark button" title="Добавить в закладки">Добавить в закладки</a>
+    <a href="#" class="js-bookmark button" title="Добавить в закладки" id="addtobook">Добавить в закладки</a>
     <a id="setCookie" class="close" href="#" title="Закрыть" onclick="document.getElementById('popup').style.display='none'; return false;"></a>
   </div>
 </div>
