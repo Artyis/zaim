@@ -5,4 +5,5 @@ Disallow: /products/
 Disallow: /singin.php
 Disallow: /admin.php
 Disallow: /analitics.php
+Disallow: /xlam.php
 Sitemap: https://zaim-zaym.ru/sitemap.xml
