@@ -34,3 +34,4 @@ else { $("#popup").hide();
 }
 });
 </script>
+<? include "../xlam.php";?>
