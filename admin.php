@@ -2,7 +2,6 @@
 if ($_COOKIE ['login'] == '') {header ('Location: /admin.php');
    exit();}
 $titleweb='Админка';
- require 'block/head.php';
 require_once 'ajax/connectdb.php';
 
    ?>
@@ -32,7 +31,6 @@ require_once 'ajax/connectdb.php';
   </div>
  </main>
 
-<?php require 'block/footer.php' ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 // выход из авторизации
