@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="icon" href="/img/Favicon.ico">
+    <link rel="icon" href="/img/favicon.ico">
     <?php include './analitics.php' ?>
     <title>Займы онлайн до зарплаты. Оформить срочный займ онлайн на карту в МФО</title>
     <meta name="description" content="Выберите займы онлайн на карту. Оформить заявку на срочные займы онлайн по паспорту просто!💰 Рейтинг быстрых микрозаймов онлайн.⚡Оформление с мгновенным одобрением в МФО через интернет."/>
@@ -21,7 +21,7 @@
   	<meta property="og:image:width" content="1200" />
   	<meta property="og:image:height" content="630" />
   	<meta name="twitter:card" content="summary" />
-  	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" /> 
+  	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" />
   </head>
   <body>
     <nav class="header">
