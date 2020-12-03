@@ -20,21 +20,22 @@ if ($_POST['file'] != 'undefined'){
 
   $apend= $_FILES['file']['name'];
   $filetmp = $_FILES['file']['tmp_name'];
-  if (move_uploaded_file($filetmp, '../img/'.$apend){
+    if (move_uploaded_file($filetmp, '../img/'.$apend){
 
-global $id;
-  $sql = "UPDATE `loans` SET  `mfo`=?, `cpalink`=?, `loantime`=?, `procent`=?, `sumfrom`=?, `sumto`=?, `age`=?, `checkbox`=?, `img`=?, `txt`=? WHERE `id`=$id";
-  $query = $pdo->prepare($sql);
-  $res=$query -> execute([$mfo ,$cpalink, $loantime, $procent, $sumfrom, $sumto, $age, $chbx, $apend, $txt]);
-echo 'ок';
+    global $id;
+      $sql = "UPDATE `loans` SET  `mfo`=?, `cpalink`=?, `loantime`=?, `procent`=?, `sumfrom`=?, `sumto`=?, `age`=?, `checkbox`=?, `img`=?, `txt`=? WHERE `id`=$id";
+      $query = $pdo->prepare($sql);
+      $res=$query -> execute([$mfo ,$cpalink, $loantime, $procent, $sumfrom, $sumto, $age, $chbx, $apend, $txt]);
+    echo 'ок';
 
-}
-else{
-global $id;
-  $sql = "UPDATE `loans` SET  `mfo`=?, `cpalink`=?, `loantime`=?, `procent`=?, `sumfrom`=?, `sumto`=?, `age`=?, `checkbox`=?, `txt`=? WHERE `id`=$id";
-  $query = $pdo->prepare($sql);
-  $res=$query-> execute([$mfo ,$cpalink, $loantime, $procent, $sumfrom, $sumto, $age, $chbx, $txt]);
-echo 'ок';
+      }
+    else{
+    global $id;
+      $sql = "UPDATE `loans` SET  `mfo`=?, `cpalink`=?, `loantime`=?, `procent`=?, `sumfrom`=?, `sumto`=?, `age`=?, `checkbox`=?, `txt`=? WHERE `id`=$id";
+      $query = $pdo->prepare($sql);
+      $res=$query-> execute([$mfo ,$cpalink, $loantime, $procent, $sumfrom, $sumto, $age, $chbx, $txt]);
+    echo 'ок';
+  };
 
 };
 
