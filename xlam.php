@@ -1,11 +1,6 @@
 <!--liveint-->
 <div class="" style="display:none;">
-  <script>(function(d,s){d.getElementById("licnt08B2").src=
-  "//counter.yadro.ru/hit?t44.6;r"+escape(d.referrer)+
-  ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
-  (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
-  ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
-  (document,screen)</script>
+  <script>(function(d,s){d.getElementById("licnt08B2").src="//counter.yadro.ru/hit?t44.6;r"+escape(d.referrer)+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script>
   <!--hotlog-->
   <script type="text/javascript"> var hot_s = document.createElement('script');
   hot_s.type = 'text/javascript'; hot_s.async = true;
