@@ -2,6 +2,7 @@
 if ($_COOKIE ['login'] == '') {header ('Location: /admin.php');
    exit();}
 $titleweb='Админка';
+require 'block/head.php';
 require_once 'ajax/connectdb.php';
 
    ?>
