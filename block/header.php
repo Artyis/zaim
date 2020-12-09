@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="icon" href="/img/favicon.ico">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <?php include './analitics.php' ?>
     <title>Займы онлайн до зарплаты. Оформить срочный займ онлайн на карту в МФО</title>
     <meta name="description" content="Выберите займы онлайн на карту. Оформить заявку на срочные займы онлайн по паспорту просто!💰 Рейтинг быстрых микрозаймов онлайн.⚡Оформление с мгновенным одобрением в МФО через интернет."/>
