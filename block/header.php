@@ -22,11 +22,12 @@
   	<meta property="og:image:height" content="630" />
   	<meta name="twitter:card" content="summary" />
   	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" />
+    <script src="/js/jquery-3.3.1.min.js"></script>
   </head>
   <body>
     <nav class="header">
       <div class="header_cont ">
-        <a class="container" styles="float:left;"  href="/"><img src ="/img/logo.svg" alt=" Лого.Финансовый маркет Zaim-Zaym.ru" style="
+        <a class="container" href="/"><img src ="/img/logo.svg" alt=" Лого.Финансовый маркет Zaim-Zaym.ru" style="
     max-width: 100%;"></a>
       </div>
       <div class="header_banner container">

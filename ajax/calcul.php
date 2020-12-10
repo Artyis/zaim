@@ -3,7 +3,7 @@
   $time =filter_var($_POST ['time']);
   $cbx = "on";
   require_once 'connectdb.php';
-  $sql="SELECT * FROM `loans` WHERE `checkbox`='on' ORDER BY `procent`>=0 DESC";
+  $sql="SELECT * FROM `loans` WHERE `checkbox`='on' ORDER BY `procent`=0 DESC";
   $query = $pdo->query($sql);
   $out1=[];
   $out2=[];

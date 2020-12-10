@@ -1,6 +1,5 @@
 <? require 'block/header.php';
 require_once 'ajax/connectdb.php'; ?>
-<script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/jquery-ui.min.js"></script>
 <script src="/js/jquery.ui.touch-punch.min.js"></script>
 <script src="/js/jquery.sticky-sidebar.min.js"></script>
