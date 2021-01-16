@@ -22,9 +22,9 @@ require_once 'ajax/connectdb.php';
 
              <div class="row card-header mb-2">
                <h4 class="my-3 font-weight-normal col-md-8"><? echo $mfo; ?></h4>
-               <p class="my-3 col-md-2"><? echo $cpalink;?></p>
-                 <a href="ajax/rloan.php?id=<?echo $id;?>" class="btn btn-lg btn-block btn-primary col-4 col-md-2" >Редактировать</a>
-                  <a href="ajax/dloan.php?id=<?echo $id;?>" class="btn btn-lg btn-block btn-primary col-4 col-md-2" >Удалить</a>
+               <p class="col-md-2"><? echo $cpalink;?></p>
+                 <a href="ajax/rloan.php?id=<?echo $id;?>" class="btn btn-lg btn-block btn-primary col-4 col-md-3" >Редактировать</a>
+                  <a href="ajax/dloan.php?id=<?echo $id;?>" class="btn btn-lg btn-block btn-primary col-4 col-md-3" >Удалить</a>
 
                </div>
                     <? } } ?>
