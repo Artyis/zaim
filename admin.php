@@ -1,5 +1,5 @@
 <?php
-if ($_COOKIE ['login'] == '') {header ('Location: /admin.php');
+if ($_COOKIE ['login'] == '') {header ('Location: /singin.php');
    exit();}
 $titleweb='Админка';
 require 'block/head.php';

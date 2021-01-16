@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/master.css">
-    <link rel="icon" href="/img/Favicon.ico">
+    <link rel="icon" href="/img/favicon.ico">
     <title><?=$titleweb?></title>
     <?php // include 'analitics.php' ?>
   </head>
@@ -20,6 +19,7 @@
           <?php else: ?>
             <a class="py-2 d-none d-md-inline-block" href="/products/add_loan.php">Добавить займ</a>
             <a class="py-2 d-none d-md-inline-block" id='exit' href="/ajax/exit.php">Выйти</a>
+            <a class="py-2 d-none d-md-inline-block" id='exit' href="/admin.php">Админка</a>
           <?php endif; ?>
       </div>
     </nav>

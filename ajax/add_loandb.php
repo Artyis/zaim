@@ -1,7 +1,7 @@
 <?php
 
 $mfo = trim(filter_var($_POST['mfo']),FILTER_SANITIZE_STRING);
-$cpalink = trim(filter_var($_POST['cpalink']), FILTER_SANITIZE_URL);
+$cpalink = trim(filter_var($_POST['cpalink']));
 $loantime = filter_var(trim($_POST['loantime']),FILTER_SANITIZE_NUMBER_INT);
 $procent = filter_var(trim($_POST['procent']),FILTER_SANITIZE_NUMBER_INT);
 $sumfrom = filter_var(trim($_POST['sumfrom']),FILTER_SANITIZE_NUMBER_INT);
