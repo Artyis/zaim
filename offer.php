@@ -1,6 +1,6 @@
 <?php
 $id =filter_input(INPUT_GET,id);
-include 'connectdb.php';
+include 'ajax/connectdb.php';
 
 $sql = "SELECT * FROM `loans` WHERE  `id`=:id LIMIT 1";
 $query = $pdo->prepare($sql);
