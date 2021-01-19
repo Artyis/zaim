@@ -6,7 +6,8 @@
 Все рекомендации являются результатом аналитических исследований и не несут рекламный характер.
 Предложение не является оффертой. Конечные условия займов уточняйте при прямом общении к кредиторам.
 </p>
-<p class="footer_text"> zaim-zaym.ru - Россия, 2020г.</p>
+<?$date=date("Y");?>
+<p class="footer_text"> zaim-zaym.ru - Россия, <?echo $date;?>г.</p>
 </footer>
 <div class="ppop">
 <div id="popup" style="position:fixed;">
