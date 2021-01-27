@@ -388,10 +388,10 @@ var onResize = function () {
     onResize();
 
     function showCityPopup() {
-    	if ($("#cityblock").is(':visible')) {
-        	$("#cityblock").hide();
+    	if ($('.popup').is(':visible')) {
+        	$('.popup').hide();
         } else {
-			$("#cityblock").show();
+			$('.popup').show();
         }
 }
 </script>
