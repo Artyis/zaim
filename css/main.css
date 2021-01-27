@@ -99,10 +99,45 @@ body{
   border-radius: 30px;
   float: right;
   margin-top: -30px;
+  margin-bottom: 15px;
 }
+.city{
+  border-radius: 10px;
+  max-width: 100%;
+  height: 50px;
+}
+.geo{
+  max-width: 20px;
+  max-height: 20px;
+}
+.text_geo{
+  text-align: center;
+  color: #ccc;
+  font-weight: 700;
+  font-size: 20px;
+  height: 44px;
+}
+
 .polzunok-wrap{
   margin-bottom: 20px;
 }
+
+.popup{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#00000050;z-index:100}
+.popupIn{position:fixed;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:row;justify-content:center;align-items:center}
+.popupInSecond{background:#ffffff;border:1px solid #000000;box-shadow:0 0 8px #000000;padding:20px}
+.popupInSecond h4{font-size:20px;padding:0 0 15px;margin:0;border-bottom:1px solid #d7d8db;text-align:center}
+.popupInSecondFlex{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
+.popupInSecond p{text-align:center;font-size:16px}.popupInSecond img{height:220px}
+.popupInSecond .exitPopupButton{text-align:center;margin:40px 0px 20px}
+.popupInSecond .exitPopupButton a{background:#2bca4a;color:white;text-decoration:none;padding:10px 40px 12px;border-radius:4px;font-size:20px;box-shadow:2px 2px 2px #565656}
+.popupInSecond .exitPopupButton a:hover{background:#339c47}
+.popupInSecond .popupButtons{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin-top:15px}
+.popupInSecond .popupButtonsAccept{background:#2bca4a;color:white;display:block;text-align:center;text-decoration:none;padding:10px 40px;border-radius:4px;font-weight:700;font-size:16px;margin-right:15px;box-shadow:2px 2px 2px #038c27;cursor:pointer}
+.popupInSecond .popupButtonsCansel{background:#eee;color:#676767;border:1px solid #c5c5c5;padding:12px 30px;box-shadow:2px 2px 2px #808080;font-size:14px;font-weight:700;border-radius:4px;cursor:pointer}@media screen and (max-width:500px){.popupInSecond img{height:140px}}
+#cityblock .popupInSecond{height:70vh;width:278px;overflow:auto}
+#cityblock .popupInSecond ul{list-style:none;margin:0;padding:0}
+#cityblock .popupInSecond ul li a{display:block;padding:15px 0;border-bottom:1px dotted #d7d8db}
+
 
 .polzunok-label{
   display: flex;

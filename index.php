@@ -1,12 +1,9 @@
 <? require 'block/header.php';
 require_once 'ajax/connectdb.php'; ?>
-<script src="/js/jquery-ui.min.js"></script>
-<script src="/js/jquery.ui.touch-punch.min.js"></script>
-<script src="/js/jquery.sticky-sidebar.min.js"></script>
 <main class="main_cont">
   <div class="container">
   <div class="sticky">
-  <div class="calcul"  id="navbar">
+  <div class="calcul" id="navbar">
   <div class="polzunok-wrap">
       <div class="polzunok-label">
         <span class="polz_sum_text">Сумма займа</span>
@@ -34,19 +31,222 @@ require_once 'ajax/connectdb.php'; ?>
   </div>
 </div>
 </div>
+<a class="city" onclick="showCityPopup();"><img class="geo" src="/img/geo.svg" alt="Гео иконка"><span class="text_geo">Россия</span></a>
+<div class="popup" id="cityblock">
+	<div class="popupIn" onclick="showCityPopup();">
+      	<div class="popupInSecond">
+			<h4>Выберите город</h4>
+      <ul>
+			<li><a href="/">Займы онлайн в Архангельске</a></li>
+			<li><a href="/">Займы онлайн в Астрахани</a></li>
+			<li><a href="/">Займы онлайн в Балашихе</a></li>
+			<li><a href="/">Займы онлайн в Барнауле</a></li>
+			<li><a href="/">Займы онлайн в Белгороде</a></li>
+			<li><a href="/">Займы онлайн в Брянске</a></li>
+			<li><a href="/">Займы онлайн в Владивостоке</a></li>
+			<li><a href="/">Займы онлайн в Владикавказе</a></li>
+			<li><a href="/">Займы онлайн в Владимире</a></li>
+			<li><a href="/">Займы онлайн в Волгограде</a></li>
+			<li><a href="/">Займы онлайн в Волжском</a></li>
+			<li><a href="/">Займы онлайн в Вологде</a></li>
+			<li><a href="/">Займы онлайн в Воронеже</a></li>
+			<li><a href="/">Займы онлайн в Грозном</a></li>
+			<li><a href="/">Займы онлайн в Екатеринбурге</a></li>
+			<li><a href="/">Займы онлайн в Иваново</a></li>
+			<li><a href="/">Займы онлайн в Ижевске</a></li>
+			<li><a href="/">Займы онлайн в Иркутске</a></li>
+			<li><a href="/">Займы онлайн в Йошкар-Оле</a></li>
+			<li><a href="/">Займы онлайн в Казани</a></li>
+			<li><a href="/">Займы онлайн в Калининграде</a></li>
+			<li><a href="/">Займы онлайн в Калуге</a></li>
+			<li><a href="/">Займы онлайн в Кемерово</a></li>
+			<li><a href="/">Займы онлайн в Кирове</a></li>
+			<li><a href="/">Займы онлайн в Костроме</a></li>
+			<li><a href="/">Займы онлайн в Краснодаре</a></li>
+			<li><a href="/">Займы онлайн в Красноярске</a></li>
+			<li><a href="/">Займы онлайн в Кургане</a></li>
+			<li><a href="/">Займы онлайн в Курске</a></li>
+			<li><a href="/">Займы онлайн в Липецке</a></li>
+			<li><a href="/">Займы онлайн в Магнитогорске</a></li>
+			<li><a href="/">Займы онлайн в Махачкале</a></li>
+			<li><a href="/">Займы онлайн в Москве</a></li>
+			<li><a href="/">Займы онлайн в Мурманске</a></li>
+			<li><a href="/">Займы онлайн в Набережных Челнах</a></li>
+			<li><a href="/">Займы онлайн в Нижневартовске</a></li>
+			<li><a href="/">Займы онлайн в Нижнекамске</a></li>
+			<li><a href="/">Займы онлайн в Нижнем Новгороде</a></li>
+			<li><a href="/">Займы онлайн в Нижнем Тагиле</a></li>
+			<li><a href="/">Займы онлайн в Новокузнецке</a></li>
+			<li><a href="/">Займы онлайн в Новороссийске</a></li>
+			<li><a href="/">Займы онлайн в Новосибирске</a></li>
+			<li><a href="/">Займы онлайн в Омске</a></li>
+			<li><a href="/">Займы онлайн в Орле</a></li>
+			<li><a href="/">Займы онлайн в Оренбурге</a></li>
+			<li><a href="/">Займы онлайн в Пензе</a></li>
+			<li><a href="/">Займы онлайн в Перми</a></li>
+			<li><a href="/">Займы онлайн в Петрозаводске</a></li>
+			<li><a href="/">Займы онлайн в Подольске</a></li>
+      <li><a href="/">Россия</a></li>
+      <li><a href="/">Займы онлайн в Ростове-на-Дону</a></li>
+			<li><a href="/">Займы онлайн в Рязани</a></li>
+			<li><a href="/">Займы онлайн в Самаре</a></li>
+			<li><a href="/">Займы онлайн в Санкт-Петербурге</a></li>
+			<li><a href="/">Займы онлайн в Саранске</a></li>
+			<li><a href="/">Займы онлайн в Саратове</a></li>
+			<li><a href="/">Займы онлайн в Севастополе</a></li>
+			<li><a href="/">Займы онлайн в Симферополе</a></li>
+			<li><a href="/">Займы онлайн в Смоленске</a></li>
+			<li><a href="/">Займы онлайн в Сочи</a></li>
+			<li><a href="/">Займы онлайн в Ставрополе</a></li>
+			<li><a href="/">Займы онлайн в Стерлитамаке</a></li>
+			<li><a href="/">Займы онлайн в Сургуте</a></li>
+			<li><a href="/">Займы онлайн в Сыктывкаре</a></li>
+			<li><a href="/">Займы онлайн в Тамбове</a></li>
+			<li><a href="/">Займы онлайн в Твери</a></li>
+			<li><a href="/">Займы онлайн в Тольятти</a></li>
+			<li><a href="/">Займы онлайн в Томске</a></li>
+			<li><a href="/">Займы онлайн в Туле</a></li>
+			<li><a href="/">Займы онлайн в Тюмени</a></li>
+			<li><a href="/">Займы онлайн в Улан-Удэ</a></li>
+			<li><a href="/">Займы онлайн в Ульяновске</a></li>
+			<li><a href="/">Займы онлайн в Уфе</a></li>
+			<li><a href="/">Займы онлайн в Хабаровске</a></li>
+			<li><a href="/">Займы онлайн в Химках</a></li>
+			<li><a href="/">Займы онлайн в Чебоксарах</a></li>
+			<li><a href="/">Займы онлайн в Челябинске</a></li>
+			<li><a href="/">Займы онлайн в Череповце</a></li>
+			<li><a href="/">Займы онлайн в Чите</a></li>
+			<li><a href="/">Займы онлайн в Якутске</a></li>
+			<li><a href="/">Займы онлайн в Ярославле</a></li>
+      </ul>
+      	</div>
+	</div>
 </div>
-<div class="offers_cont">
-<?$array=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"];
-$date=$array[date('n')-1];
-$date.=date(" y");?>
+</div>
+<div class="offers_cont" id="navbar_st">
+<?$array=["янв.","фев.","мар.","апр.","мая","июня","июля","авг.","сен.","окт.","нояб.","дек."];
+$date=date("d ");
+$date.=$array[date('n')-1];
+$date.=date(" Y");?>
 <div class = "offers_data"> <h2 class ="data_text">Рейтинг займов: <?echo $date;?>&nbsp;год </h2>
 </div>
 <div class="offers">
-
+  <?php
+    $sum =3000;
+    $time =5;
+    $cbx = "on";
+    $sql="SELECT * FROM `loans` WHERE `checkbox`='on' ORDER BY `procent`=0 DESC";
+    $query = $pdo->query($sql);
+    $out1=[];
+    $out2=[];
+      while ($row=$query->fetch(PDO::FETCH_OBJ)){
+        if(($row->sumto)>=$sum && ($row->sumfrom)<=$sum && ($row->loantime)>=$time){
+        $out1[]=[
+          '<div class="offer_box">
+          <div class = "text_box">
+          <p class="text_into_box">'.$row->txt.'</p>
+           </div>
+            <div class="offer_box_row">
+              <div class ="offer_box_img">
+                  <img src="/img/'.$row->img.'" alt="'.$row->mfo.'" class="offer_box_img_scr">
+                  <h4>'.$row->mfo.'</h4>
+                </div>
+            <div class="offer_box_cont">
+              <div class ="offer_info">
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Сумма займа</p>
+                  <p class="offer_info_num">'.$sum.' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Комиссия '.$time.' дн.</p>
+                  <p class="offer_info_num">'.$sumend=intval(($sum*($row->procent/100)/100)*$time).' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Сумма к выплате</p>
+                  <p class="offer_info_num1">'.$sumend=intval($sum+(($sum*($row->procent/100)/100)*$time)).' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Первый займ</p>
+                  <p class="offer_info_num2">'.$row->sumfrom.' - '.$row->sumto.' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text"> Ставка в % </p>
+                  <p class="offer_info_num2">'.($row->procent/100).'</p>
+                </div>
+                <div class="offer_info_box" >
+                  <p class="offer_info_text">Срок займа</p>
+                  <p class="offer_info_num2">'.$row->loantime.' дней</p>
+                </div>
+              </div>
+            </div>
+                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="mtdone">Изучить условия</a></div>
+              </div>
+                </div>
+              '
+      ];
+        }
+        else{
+          if (($row->sumfrom)<=$sum && ($row->loantime)>=$time){
+        $out2[]=[
+          '<div class="offer_box">
+            <div class="offer_box_row">
+              <div class ="offer_box_img">
+                  <img src="/img/'.$row->img.'" alt="'.$row->mfo.'" class="offer_box_img_scr">
+                  <h4>'.$row->mfo.'</h4>
+                </div>
+            <div class="offer_box_cont">
+              <div class ="offer_info">
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Сумма займа</p>
+                  <p class="offer_info_num">'.$sum.' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Комиссия '.$time.' дн.</p>
+                  <p class="offer_info_num">'.$sumend=intval(($sum*($row->procent/100)/100)*$time).' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Сумма к выплате</p>
+                  <p class="offer_info_num1">'.$sumend=intval($sum+(($sum*($row->procent/100)/100)*$time)).' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text">Первый займ</p>
+                  <p class="offer_info_num2">'.$row->sumfrom.' - '.$row->sumto.' <small>₽</small></p>
+                </div>
+                <div class="offer_info_box">
+                  <p class="offer_info_text"> Ставка в % </p>
+                  <p class="offer_info_num2">'.($row->procent/100).'</p>
+                </div>
+                <div class="offer_info_box" >
+                  <p class="offer_info_text">Срок займа</p>
+                  <p class="offer_info_num2">'.$row->loantime.' дней</p>
+                </div>
+              </div>
+            </div>
+                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="stdone" >Изучить условия</a></div>
+              </div>
+                </div>'
+        ];
+  }}
+      };
+      foreach ($out1 as $elem) {
+          foreach ($elem as $elem2) {
+            print_r($elem2);
+          }
+      }
+  ?><div class="offers_vse">
+    <p class="data_text">Результаты,  не соответствующие условиям</p>
+   </div>
+  <?
+  foreach ($out2 as $elem) {
+      foreach ($elem as $elem2) {
+        print_r($elem2);
+      }
+  }
+  ?>
 </div>
 </div>
 <div class="bg_txt">
-<div class="main_txt container" id="text">
+<div class="main_txt container">
   <br>
   <h3>Какие условия у МФО на займы по паспорту онлайн?</h3> <br>
   Обычно большая часть микрокреедитных компаний выдают деньги на карту на относительно небольшой срок, до месяца.
@@ -65,7 +265,7 @@ $date.=date(" y");?>
    Данный "кредитный лимит" довольно быстро возрастает после каждого успешного, а главное - своевременного погашения займа.
    Своевременно погасив такой займ, клиент довольно быстро может повысить свой "кредитный лимит", до необходимой суммы денег. Нарушение заемщиком долговых обязательств, способно не только понизить этот лимит, но и полностью лишить возможности кредитования.<br>
   <br>
-  <h4>Кому доступен <strong>займ на карту</strong> в online режиме?</h4><br>
+  <h4 >Кому доступен <strong>займ на карту</strong> в online режиме?</h4><br>
   Микрофинансовые компании никогда не выставляют сильно завышенные требования своим потенциальным клиентам, что выгодно отличает их от прочих участников кредитно-финансового рынка.
   Одно из ключевых достоинств микрофинансовых организаций - это мягкие требования к будущим клиентам. Позволяет получить займ тем категориям клиентов, которым отказали прочие участники кредитно-финансового рынка.
   Сейчас, онлайн кредит по паспорту может оформить любой человек, который на момент подачи своей заявки на займ до зарплаты имеет:<br>
@@ -116,7 +316,7 @@ $date.=date(" y");?>
   • cрок предоставления бесплатного кредита каждая организация определяет сама. Минимальный период составляет 1-3 дня, максимальный – до 30 суток.<br>
   • безвозмездный кредит организация предоставляет только один раз. Услуга доступна новому клиенту, который впервые оформляет микрокредит.<br>
   • вторую и последующие заявки финансовая компания одобрит по стандартной процентной ставке. Если успешно выплатить 2-3 мини-кредита, можно получить скидку для постоянных клиентов.<br>
-  <br>
+  <br id="text">
   Какие требования необходимы для получения денежных средств:
   <br>
   • по возрасту – старше 18 лет;<br>
@@ -157,21 +357,43 @@ $date.=date(" y");?>
 </div>
 </div>
 </main>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/js/jquery.sticky-sidebar.min.js"></script>
 <script>
-window.onscroll = function() {myFunction()};
+/*window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetHeight;
+var navbar_st =document.getElementById("navbar_st");
+var sticky = navbar_st.offsetHeight;
 var topsticky = navbar.offsetTop;
 var stopscrll = document.getElementById("text");
 var scrll = stopscrll.offsetTop;
 function myFunction() {
-  if (window.pageYOffset>=scrll) {
+  if (window.pageYOffset>=sticky) {
     navbar.classList.add("stickytop")
   } else {
     navbar.classList.remove("stickytop");
   }
-};
+};*/
+window.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+var onResize = function () {
+      if (window.isMobile == false)
+        $('.sticky').stickySidebar({
+            topSpacing: 50,
+        });
+    };
+
+    $(window).resize(onResize);
+    onResize();
+
+    function showCityPopup() {
+    	if ($("#cityblock").is(':visible')) {
+        	$("#cityblock").hide();
+        } else {
+			$("#cityblock").show();
+        }
+}
 </script>
 <script>
 var load_ajax;

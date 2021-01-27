@@ -54,6 +54,7 @@
     ];
       }
       else{
+        if (($row->sumfrom)<=$sum && ($row->loantime)>=$time){
       $out2[]=[
         '<div class="offer_box">
           <div class="offer_box_row">
@@ -93,7 +94,7 @@
             </div>
               </div>'
       ];
-}
+}}
     };
     foreach ($out1 as $elem) {
         foreach ($elem as $elem2) {
