@@ -179,7 +179,7 @@ $date.=date(" Y");?>
                 </div>
               </div>
             </div>
-                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="mtdone" rel="nofollow">Изучить условия</a></div>
+                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="mtdone" rel="nofollow noopener">Оформить заявку</a></div>
               </div>
                 </div>
               '
@@ -222,7 +222,7 @@ $date.=date(" Y");?>
                 </div>
               </div>
             </div>
-                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="stdone" rel="nofollow">Изучить условия</a></div>
+                <div class="pbttn"><a href ="/offer.php?id='.$row->id.'" class="bttn" target="_blank" id="stdone" rel="nofollow noopener">Оформить заявку</a></div>
               </div>
                 </div>'
         ];
