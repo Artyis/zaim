@@ -192,7 +192,7 @@ body{
 .offers_cont {
   min-height: 400px;
   float: left;
-  width: calc(100% - 330px);
+  width: calc(100% - 300px);
 }
 .offers_data{
 background: #FFFFFF;
