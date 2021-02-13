@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
@@ -23,6 +24,7 @@
   	<meta name="twitter:card" content="summary" />
   	<meta name="twitter:image" content="https://zaim-zaym.ru/img/logo.svg" />
     <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/nocopy.js"></script>
   </head>
   <body>
     <nav class="header">
@@ -39,7 +41,7 @@
           <a class="block_heads"  href="/"><img src ="/img/logo.svg" alt="Онлайн займы Zaim-Zaym.ru" style="
       max-width: 100%;"></a>
           <div class="block_heads">
-            <a class="button" target="_blank" href="/offer.php?id=6">Займ дня</a>
+            <a class="button" target="_blank" rel="nofollow noopener" id="zd" href="/offer.php?id=6">Займ дня</a>
           </div>
         </div>
       </div>
