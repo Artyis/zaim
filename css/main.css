@@ -1,3 +1,4 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 *{
   margin: 0;
   padding: 0;
@@ -14,14 +15,58 @@ body{
   background-color: #E4E4E4;
 }
 .header_cont{
-  display: flex;
-  justify-content: space-between;
   min-height: 80px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px #8BC34A;
-  padding-left: 15px;
-  padding-right: 15px;
 }
+.heads_hed{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.heads{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_heads{
+  padding: 3px
+}
+.socialbox{
+  margin-top: 5px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  float: right;
+  max-height: 30px;
+
+}
+.social a {
+    justify-content: space-between;
+    font-size: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background: #fff;
+    border: 1px solid #cccccc47;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #8bc34a;
+}
+
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+
 .logo{
   min-width: 320px;
   height: 60px;
@@ -32,7 +77,7 @@ body{
 .header_banner{
   display: flex;
   flex-grow: 1;
-  min-height:517px;
+  min-height:400px;
   margin-top: 5px;
 
 }
@@ -48,15 +93,14 @@ body{
   flex-direction: column;
 }
 .banner_text_h1 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 111%;
-  text-align: center;
-  padding-top: 115px;
+  padding-top: 50px;
   color: #3F4D79;
 }
 .banner_p {
-  text-align: center;
-  font-size: 15px;
+  text-align: justify;
+  font-size: 25px;
   line-height: 133%;
   color: #3F4D79;
 
@@ -361,6 +405,7 @@ cursor:pointer;}
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
 }
 .popup_txt{
   font-size: 20px;

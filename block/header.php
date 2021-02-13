@@ -26,14 +26,25 @@
   </head>
   <body>
     <nav class="header">
-      <div class="header_cont ">
-        <a class="container" href="/"><img src ="/img/logo.svg" alt="Онлайн займы Zaim-Zaym.ru" style="
-    max-width: 100%;"></a>
+      <div class="header_cont">
+        <div class="container heads_hed">
+        <div class="socialbox">
+          <script src="https://yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-curtain data-size="s" data-limit="5" data-services="vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp"></div>
+        </div>
+        <a name="без отказа"></a>
+        <a name="без процентов"></a>
+        <a name="без проверок"></a>
+        <div class="heads">
+          <a class="block_heads"  href="/"><img src ="/img/logo.svg" alt="Онлайн займы Zaim-Zaym.ru" style="
+      max-width: 100%;"></a>
+          <div class="block_heads">
+            <a class="button" target="_blank" href="/offer.php?id=6">Займ дня</a>
+          </div>
+        </div>
+      </div>
       </div>
       <div class="header_banner container">
-        <div class="header_banner_box ">
-          <img src ="../img/banner.png" alt="Финансовый маркет">
-        </div>
         <div class="banner_text_cont">
           <h1 class="banner_text_h1">Рейтинг популярных онлайн займов</h1>
           <p class="banner_p">Все быстрые круглосуточные займы на карту онлайн 2021 года! Мы ежедневно обновляем рейтинг быстрых займов добавляем новые МФО, выдающие займы онлайн через интернет. <br>

@@ -9,7 +9,7 @@
 <?$date=date("Y");?>
 <p class="footer_text"> zaim-zaym.ru - Россия, <?echo $date;?>г.</p>
 </footer>
-<div class="ppop">
+<!--<div class="ppop">
 <div id="popup" style="position:fixed;">
   <div class="for_popup container">
     <p class="popup_txt">Понравился наш сайт?! Добавьте его в закладки чтобы не потерять!;)</p>
@@ -17,7 +17,7 @@
     <a id="setCookie" class="close" href="#" title="Закрыть" onclick="document.getElementById('popup').style.display='none'; return false;"></a>
   </div>
 </div>
-</div>
+</div>-->
 <script type="text/javascript">
 $(document).ready(function(){
 $("#setCookie").click(function () {
