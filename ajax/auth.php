@@ -15,7 +15,7 @@ if ($error !='') {
 
   include 'connectdb.php';
 //Авторизация
-  $sql='SELECT `id` FROM `users` WHERE `login` = :login && `password` = :pass ';
+  $sql='SELECT `id` FROM `users` WHERE `login` = :login AND `password` = :pass ';
   $query = $pdo->prepare($sql);
   $query -> execute([':login'=>$login, ':pass'=>$pass]);
 
